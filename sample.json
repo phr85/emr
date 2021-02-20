@@ -5,5 +5,10 @@
   },
   "meta" : {
     "emrVersion" : 1
+  },
+  "patient" : {
+    "firstname" : "Max",
+    "lastname" : "Muster",
+    "birthday" : "2020/28/01"
   }
 }
