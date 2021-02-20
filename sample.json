@@ -9,6 +9,20 @@
   "patient" : {
     "firstname" : "Max",
     "lastname" : "Muster",
-    "birthday" : "2020/28/01"
-  }
+    "birthday" : "1985/28/01"
+  },
+  "diseases": [{
+      "name" : "Long-COVID",    
+      "icd-code": "xxx"
+  }],
+  "vaccinations" : [{
+      "name" : "COVID-19 Vaccine Moderna",
+      "location" : "Muster",
+      "date" : "2021/25/01"
+    },
+    {
+      "name" : "COVID-19 Vaccine Moderna",
+      "location" : "Muster",
+      "date" : "2021/22/02"
+    }]
 }
