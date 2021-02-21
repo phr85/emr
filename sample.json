@@ -11,11 +11,14 @@
     "lastname" : "Muster",
     "birthday" : "1985/28/01"
   },
-  "diseases": [{
-      "name" : "Long-COVID",    
-      "icd-code": "xxx"
-  }],
-  "vaccinations" : [{
+  "diseases" : [
+    {
+      "name" : "Long-COVID",
+      "icd-code" : "xxx"
+    }
+  ],
+  "vaccinations" : [
+    {
       "name" : "COVID-19 Vaccine Moderna",
       "location" : "Muster",
       "date" : "2021/25/01"
@@ -24,5 +27,18 @@
       "name" : "COVID-19 Vaccine Moderna",
       "location" : "Muster",
       "date" : "2021/22/02"
-    }]
+    }
+  ],
+  "HospitalVisit" : [
+    {
+      "reason" : "cough",
+      "hospstartdate" : "",
+      "hospStopDate" : ""
+    },
+    {
+      "reason" : "fever",
+      "hospstartdate" : "",
+      "hospStopDate" : ""
+    }
+  ]
 }
